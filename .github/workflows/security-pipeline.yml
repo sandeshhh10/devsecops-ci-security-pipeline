@@ -31,9 +31,9 @@ jobs:
       # 3. Install dependencies
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install pip-audit
+           python -m pip install --upgrade pip
+           pip install -r requirements-dev.txt
+           pip install pip-audit
 
       # 4. Run tests
       - name: Run tests
