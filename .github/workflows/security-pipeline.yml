@@ -37,7 +37,7 @@ jobs:
 
       # 4. Run tests
       - name: Run tests
-        run: pytest
+        run: python -m pytest
 
       # 5. Dependency vulnerability scan
       - name: Dependency vulnerability scan
